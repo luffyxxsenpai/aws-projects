@@ -22,3 +22,11 @@
   - gateway incur charges based on hourly usage and data transfer 
   - but it does suppports more services like (kms, ssm, s3, dynamodb, cloudwatch, api gateway, etc.) 
 
+# 4. TRANSIT GATEWAY
+  - acts as a central hub to interconnect multiple vpc and on-primise networks
+  - can add vpc,vpn,directlink from different accounts also with multi region support
+  - aws managed service with High Availability 
+  - nees to update the route table for each vpc to cross refrence all the other vpc through the transit gateway route table
+  - highly efficient when theres a large number vpc to connect
+  - supports transitive property unlike vpc peering with very limited functionality
+  - one transit gateway per region 
